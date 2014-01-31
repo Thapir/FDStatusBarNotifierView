@@ -12,7 +12,6 @@ NSTimeInterval const kTimeOnScreen = 2.0;
 
 @interface FDStatusBarNotifierView ()
 
-@property (nonatomic, strong) UILabel *messageLabel;
 @property (nonatomic, strong) NSTimer *showStatusBarTimer;
 
 @end
